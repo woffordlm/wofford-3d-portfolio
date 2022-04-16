@@ -1,7 +1,9 @@
+
+   
 import './style.css'
 import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls'
-import * as THREE from 'https://unpkg.com/three/build/three.module.js'
-import { PointLight } from 'three';
+import * as THREE from 'three'
+// import { PointLight } from 'three';
 
 
 
