@@ -55,7 +55,7 @@ Array(200).fill().forEach(addStar)
 const spaceTexture = new THREE.TextureLoader().load('./assets/space.jpg')
 scene.background = spaceTexture; 
 
-const jeffTexture = new THREE.TextureLoader().load('./assets/My project.png');
+const jeffTexture = new THREE.TextureLoader().load('./assets/luke.png');
 
 const jeff = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: jeffTexture }));
 
